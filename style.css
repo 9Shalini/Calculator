@@ -1,0 +1,94 @@
+body {
+  background-color: gainsboro;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 20px;
+}
+img {
+  position: relative;
+  width: 17vw;
+  height: 30vw;
+  float: left;
+  margin-left: 22.5vw;
+}
+
+.calculator {
+  position: relative;
+  margin: auto;
+  width: 20vw;
+  height: 30vw;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 13px;
+}
+
+.upper {
+  margin: auto;
+  width: 100%;
+  height: 25%;
+  background-color: orange;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+}
+#screen {
+  width: 80%;
+  height: 54%;
+  text-align: right;
+  margin-top: 6%;
+  background-color: orange;
+  border: none;
+}
+input {
+  font-size: 180%;
+}
+
+.lower {
+  margin: auto;
+  width: 90%;
+  height: 70%;
+  margin-top: 3%;
+}
+.table {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+button {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  border: none;
+  font-size: 2vmin;
+  cursor: pointer;
+}
+
+@media screen and (max-width:540px) {
+  .calculator {
+    position: relative;
+    margin: auto;
+    width: 50vw;
+    height: 70vw;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 13px;
+  }
+  img {
+    display: none;
+  }
+}
+
+.equal {
+  background-color: orange;
+  color: white;
+}
+.operators {
+  color: orange;
+}
